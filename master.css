@@ -1,0 +1,82 @@
+body, html {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'K2D', sans-serif;
+}
+
+
+@media (max-width: 700px) {
+  a {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  .site header{
+    display: flex;
+    justify-content: center;
+  }
+
+}
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.movies {
+  height: auto;
+  min-width: 100%;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main img {
+  flex: auto;
+  height: 15%;
+  width: 15%;
+  min-width: 150px;
+  margin: 20px;
+  transition: all 300ms ease-in-out;
+}
+
+main img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+header a {
+  padding: 7px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header a:visited {
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 10px;
+
+}
