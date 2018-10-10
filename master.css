@@ -40,14 +40,8 @@ header a:visited {
   color: white;
 }
 
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
 
 main {
-  flex: 1;
   display: flex;
   flex-wrap: wrap;
 }
